@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff0f5;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    background: white;
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #b83280;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+}
+
+h2 {
+    color: #9b287b;
+    margin-top: 30px;
+}
+
+.stats {
+    background: #fce4ec;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    color: #9b287b;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #d63384;
+}
+
+button {
+    background: #c21875;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #8e1458;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background: #c21875;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #fff0f5;
+}
+
+.edit {
+    background: #198754;
+    color: white;
+    padding: 7px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.delete {
+    background: #dc3545;
+    padding: 7px 10px;
+}
+
+.delete-form {
+    display: inline;
+}
+
+.back {
+    display: inline-block;
+    background: #777;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
